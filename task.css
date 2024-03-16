@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white; /* Replace with the actual color from the design */
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    width: 80%; /* Or max-width if you want to limit it */
+    margin: 0 auto; /* This centers the container */
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between; /* Space out the navbar content */
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between; /* This will spread out the nav items */
+    align-items: center;
+    padding: 10px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+nav a {
+    color: #505F98;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 0 15px; /* Adjust spacing around the links as needed */
+}
+
+#landing {
+    font-weight: 900; /* bold */
+    font-size: 26px;
+    margin: auto; /* This will push everything after it to the right */
+}
+
+.button {
+    background-color: #111B47 ;/* Replace with the actual button color from the design */
+    color: white;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    width: 160px;
+    height: 26px;
+    
+}
+
+.button:hover {
+    background-color: #111B47; /* Darken the button on hover */
+}
+#start {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 10%;
+}
+
+.start-class {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.start-text {
+    flex: 1;
+    padding-right: 50px;
+}
+
+.start-text h2 {
+    font-weight: 900;
+    color: #111B47;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.start-text p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: #444;
+    line-height: 1.5;
+}
+
+.start-img {
+    flex: 1;
+    display: flex;
+    justify-content: left;
+}
+
+.start-img img {
+    width: 126%;
+    /* max-width: 900px; Adjust the max-width as per your design */
+    height:max-content;
+    
+}
+.buttons-container {
+    text-align: left;
+    margin-top: 20px;
+}
+
+
+.btn1{
+    background-color: #111B47 ;/* Replace with the actual button color from the design */
+    color: white;
+    border: none;
+    padding: 0.6em 1.2em;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    width: 160px;
+    height: 26px;
+    
+
+}
+.btn2{
+    background-color: white ;/* Replace with the actual button color from the design */
+    color: #111B47;
+    padding: 0.6em 1.2em;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    cursor: pointer;
+    width: 160px;
+    height: 26px;
+    
+}
+
+footer {
+    background-color: #EFF2F7;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1440px; /* Adjust based on your layout's maximum width */
+    padding: 0 10px;
+}
+
+.footer-logo {
+    color: #505F98;
+    margin-right: 20px;
+}
+
+.footer-title {
+    margin: 0;
+    color: #111B47;
+    font-size: 22px;
+}
+
+.footer-nav a {
+    color: #505F98;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+.footer-nav a:hover {
+    color: #111B47;
+}
+
+.footer-socials a {
+    color: #505F98;
+    margin: 0 5px;
+    font-size: 16px;
+    /* Use Font Awesome icons or similar for these */
+}
+
+.footer-socials a:hover {
+    color: #111B47;
+}
+
+.footer-cta {
+    background-color: #111B47;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.footer-cta:hover {
+    background-color: #0a0f2a;
+}
+
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-logo,
+    .footer-title,
+    .footer-nav,
+    .footer-socials,
+    .footer-cta {
+        margin-bottom: 10px;
+    }
+
+    .footer-nav a,
+    .footer-socials a {
+        margin: 5px;
+    }
+}
